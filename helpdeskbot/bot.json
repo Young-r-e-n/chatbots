@@ -1,0 +1,62 @@
+[
+  {
+    "response_type": "greeting",
+    "user_input": ["hello", "hi", "hey"],
+    "bot_response": "Hey there!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["see you", "goodbye", "bye"],
+    "bot_response": "See you later!",
+    "required_words": []
+  },
+  {
+    "response_type": "greeting",
+    "user_input": ["nice", "to", "meet", "you"],
+    "bot_response": "The pleasure is all mine!",
+    "required_words": ["nice", "meet", "you"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "to", "learn", "code", "coding", "apps"],
+    "bot_response": "Start by typing 'How to learn coding' on Google.",
+    "required_words": ["learn", "code"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["refund", "how", "can", "I", "get"],
+    "bot_response": "We don't offer refunds for free education.",
+    "required_words": ["refund", "i"]
+  },
+  {
+    "response_type": "question",
+    "user_input": ["how", "are", "you"],
+    "bot_response": "I'm great! Thanks for asking.",
+    "required_words": ["how", "are", "you"]
+  },
+  {
+    "response_type": "problem",
+    "user_input": ["printer", "not", "working"],
+    "bot_response": "To troubleshoot printer issues, try the following steps:\n1. Check if the printer is turned on and connected to the computer.\n2. Verify that the printer has enough paper and ink.\n3. Restart the printer and the computer.\n4. Update the printer driver.\n5. If the problem persists, contact your IT support for further assistance.",
+    "required_words": ["printer", "not", "working"]
+  },
+  {
+    "response_type": "problem",
+    "user_input": ["internet", "not", "functioning"],
+    "bot_response": "If you're experiencing internet connectivity issues, you can try these troubleshooting steps:\n1. Check if other devices are able to connect to the internet.\n2. Restart your modem and router.\n3. Verify that your Wi-Fi password is correct.\n4. Disable and re-enable Wi-Fi on your device.\n5. If the problem persists, contact your internet service provider for assistance.",
+    "required_words": ["internet", "not", "functioning"]
+  },
+  {
+    "response_type": "problem",
+    "user_input": ["transfer", "files", "pc", "phone"],
+    "bot_response": "To transfer files from your PC to your phone, you can use one of the following methods:\n1. Connect your phone to your PC using a USB cable and enable file transfer mode.\n2. Use a cloud storage service (e.g., Google Drive, Dropbox) to upload files from your PC and then download them on your phone.\n3. Send files via email or messaging apps.\n4. Use file transfer apps like AirDroid or Pushbullet.\n5. If you encounter any issues, refer to the user manual of your phone or contact the manufacturer for further assistance.",
+    "required_words": ["transfer", "files", "pc", "phone"]
+  },
+  {
+    "response_type": "problem",
+    "user_input": ["add", "papers", "printers"],
+    "bot_response": "To add papers to the printer, follow these steps:\n1. Open the paper tray or input tray on the printer.\n2. Adjust the paper guides to match the size of the papers you're using.\n3. Load the papers into the tray, making sure they are properly aligned and not exceeding the maximum capacity.\n4. Close the tray securely.\n5. The printer should detect the papers and be ready for printing.",
+    "required_words": ["add", "papers", "printers"]
+  }
+]
